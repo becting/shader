@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6F09A19820E8804D00D496C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F09A19720E8804D00D496C7 /* main.cpp */; };
+		6F09A1A020E880AB00D496C7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F09A19F20E880AB00D496C7 /* OpenGL.framework */; };
+		6F09A1AA20E88A8D00D496C7 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F09A1A920E88A8D00D496C7 /* libglfw.3.2.dylib */; };
+		6F09A1AB20E88E7700D496C7 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F09A1A320E886BB00D496C7 /* libGLEW.2.1.0.dylib */; };
+		6F09A1C220E944E700D496C7 /* loadShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F09A1C020E944E700D496C7 /* loadShader.cpp */; };
+		6F09A1E520E9B48800D496C7 /* libglm_shared.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F09A1E320E9B17C00D496C7 /* libglm_shared.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6F204BB620EB21EE00EE57D1 /* loadTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F204BB420EB21EE00EE57D1 /* loadTexture.cpp */; };
+		6F5C1DBF20F034F3009594A8 /* objloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C1DBE20F034F3009594A8 /* objloader.cpp */; };
+		6F5C1DC220F05E1D009594A8 /* controls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C1DC020F05E1C009594A8 /* controls.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,25 @@
 /* Begin PBXFileReference section */
 		6F09A19420E8804D00D496C7 /* shader-1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "shader-1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F09A19720E8804D00D496C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6F09A19F20E880AB00D496C7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6F09A1A120E880B500D496C7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		6F09A1A320E886BB00D496C7 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = "glew-2.1.0/lib/libGLEW.2.1.0.dylib"; sourceTree = "<group>"; };
+		6F09A1A520E886D300D496C7 /* glfw-3.2.1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "glfw-3.2.1"; sourceTree = "<group>"; };
+		6F09A1A720E8875A00D496C7 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../usr/local/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		6F09A1A920E88A8D00D496C7 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = "glfw-3.2.1/src/Debug/libglfw.3.2.dylib"; sourceTree = "<group>"; };
+		6F09A1C020E944E700D496C7 /* loadShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = loadShader.cpp; sourceTree = "<group>"; };
+		6F09A1C120E944E700D496C7 /* loadShader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = loadShader.hpp; sourceTree = "<group>"; };
+		6F09A1C320E94ECD00D496C7 /* vertexShader.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = vertexShader.vert; sourceTree = "<group>"; };
+		6F09A1C420E94EE100D496C7 /* fragmentShader.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = fragmentShader.frag; sourceTree = "<group>"; };
+		6F09A1E320E9B17C00D496C7 /* libglm_shared.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglm_shared.dylib; path = glm/build/glm/Debug/libglm_shared.dylib; sourceTree = "<group>"; };
+		6F204BB420EB21EE00EE57D1 /* loadTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = loadTexture.cpp; sourceTree = "<group>"; };
+		6F204BB520EB21EE00EE57D1 /* loadTexture.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = loadTexture.hpp; sourceTree = "<group>"; };
+		6F204BB720EB241600EE57D1 /* texture.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = texture.frag; sourceTree = "<group>"; };
+		6F204BB820EB242300EE57D1 /* texture.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = texture.vert; sourceTree = "<group>"; };
+		6F5C1DBD20F034F3009594A8 /* objloader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = objloader.hpp; sourceTree = "<group>"; };
+		6F5C1DBE20F034F3009594A8 /* objloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = objloader.cpp; sourceTree = "<group>"; };
+		6F5C1DC020F05E1C009594A8 /* controls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = controls.cpp; sourceTree = "<group>"; };
+		6F5C1DC120F05E1C009594A8 /* controls.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = controls.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F09A1AA20E88A8D00D496C7 /* libglfw.3.2.dylib in Frameworks */,
+				6F09A1AB20E88E7700D496C7 /* libGLEW.2.1.0.dylib in Frameworks */,
+				6F09A1E520E9B48800D496C7 /* libglm_shared.dylib in Frameworks */,
+				6F09A1A020E880AB00D496C7 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +72,11 @@
 		6F09A18B20E8804C00D496C7 = {
 			isa = PBXGroup;
 			children = (
+				6F5C1DC420F102E5009594A8 /* resources */,
+				6F09A1BD20E9442100D496C7 /* common */,
 				6F09A19620E8804D00D496C7 /* shader-1 */,
 				6F09A19520E8804D00D496C7 /* Products */,
+				6F09A19E20E880AB00D496C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +91,49 @@
 		6F09A19620E8804D00D496C7 /* shader-1 */ = {
 			isa = PBXGroup;
 			children = (
+				6F09A1C320E94ECD00D496C7 /* vertexShader.vert */,
+				6F09A1C420E94EE100D496C7 /* fragmentShader.frag */,
+				6F204BB720EB241600EE57D1 /* texture.frag */,
+				6F204BB820EB242300EE57D1 /* texture.vert */,
 				6F09A19720E8804D00D496C7 /* main.cpp */,
 			);
 			path = "shader-1";
+			sourceTree = "<group>";
+		};
+		6F09A19E20E880AB00D496C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F09A1E320E9B17C00D496C7 /* libglm_shared.dylib */,
+				6F09A1A920E88A8D00D496C7 /* libglfw.3.2.dylib */,
+				6F09A1A720E8875A00D496C7 /* libGLEW.2.1.0.dylib */,
+				6F09A1A520E886D300D496C7 /* glfw-3.2.1 */,
+				6F09A1A320E886BB00D496C7 /* libGLEW.2.1.0.dylib */,
+				6F09A1A120E880B500D496C7 /* GLUT.framework */,
+				6F09A19F20E880AB00D496C7 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F09A1BD20E9442100D496C7 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				6F5C1DC020F05E1C009594A8 /* controls.cpp */,
+				6F5C1DC120F05E1C009594A8 /* controls.hpp */,
+				6F5C1DBE20F034F3009594A8 /* objloader.cpp */,
+				6F5C1DBD20F034F3009594A8 /* objloader.hpp */,
+				6F204BB420EB21EE00EE57D1 /* loadTexture.cpp */,
+				6F09A1C020E944E700D496C7 /* loadShader.cpp */,
+				6F09A1C120E944E700D496C7 /* loadShader.hpp */,
+				6F204BB520EB21EE00EE57D1 /* loadTexture.hpp */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		6F5C1DC420F102E5009594A8 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5C1DBF20F034F3009594A8 /* objloader.cpp in Sources */,
+				6F09A1C220E944E700D496C7 /* loadShader.cpp in Sources */,
+				6F5C1DC220F05E1D009594A8 /* controls.cpp in Sources */,
+				6F204BB620EB21EE00EE57D1 /* loadTexture.cpp in Sources */,
 				6F09A19820E8804D00D496C7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +316,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/glfw-3.2.1/include",
+					"$(PROJECT_DIR)/glew-2.1.0/include",
+					"$(PROJECT_DIR)/common",
+					"$(PROJECT_DIR)/glm",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/glew-2.1.0/lib",
+					"$(PROJECT_DIR)/glfw-3.2.1/src/Debug",
+					"$(PROJECT_DIR)/common",
+					"$(PROJECT_DIR)/glm/build/glm/Debug",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,6 +338,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/glfw-3.2.1/include",
+					"$(PROJECT_DIR)/glew-2.1.0/include",
+					"$(PROJECT_DIR)/common",
+					"$(PROJECT_DIR)/glm",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/glew-2.1.0/lib",
+					"$(PROJECT_DIR)/glfw-3.2.1/src/Debug",
+					"$(PROJECT_DIR)/common",
+					"$(PROJECT_DIR)/glm/build/glm/Debug",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
